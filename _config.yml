@@ -5,7 +5,7 @@ locale: en_US
 description: ---
 logo: my_logo.png
 search: true
-url: https://innainu.github.io/blog/
+url: innainu.github.io
 
 # Jekyll configuration
 
