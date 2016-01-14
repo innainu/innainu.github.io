@@ -1,9 +1,9 @@
 # Site wide configuration
 
-title: Site Title
+title: Inna's Website
 locale: en_US
-description: Describe your website here.
-logo: site-logo.png
+description: ---
+logo: my_logo.png
 search: true
 url: http://localhost:4000
 
@@ -33,13 +33,13 @@ exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.
 
 # Site owner
 owner:
-  name: Your Name
-  avatar: bio-photo.jpg
-  email: you@email.com
+  name: Inna Shteinbuk
+  avatar: bio_photo.jpg
+  email: ibs26@cornell.edu
   disqus-shortname:
   twitter: #username
   facebook: #username
-  github: #username
+  github: github.com/innainu
   stackexchange: #http://stackoverflow.com/users/123456/username
   linkedin: #username
   instagram: #username
