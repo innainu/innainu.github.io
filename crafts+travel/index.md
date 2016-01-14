@@ -1,6 +1,6 @@
 ---
 layout: page
-title: posts for my travels and crafts
+title: Posts about my travels & crafts
 excerpt: "Travels"
 search_omit: true
 ---
