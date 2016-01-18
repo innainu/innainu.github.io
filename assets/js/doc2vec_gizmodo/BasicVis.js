@@ -257,7 +257,6 @@ var BasicVis = new function() {
       .attr('r', 0)
       .classed({'highlight' : true})
       .on('mouseover', this._data.mouseover)
-      // .on('mousedown', console.log('shit'))
       ;
     var size = data.size()/Math.pow(data.scale, 1);
     // remove old circles from svg
@@ -464,25 +463,18 @@ var BasicVis = new function() {
       this_.timeout = null;
       var pos = [d3.event.pageX + 10, d3.event.pageY + 10 ];
       this_.move(pos);
-      console.log("hey in bind" + i)
-      // console.log(i)
       this_.display(i);
       this_.unhide();
     };
     var showclick = function(i) {
-      console.log("clicked!!!")
-      console.log(i)
       var orig_closest = idx_top3[i]
       var knn = [];
-      console.log(ds_orig2d);
       knn = knn_points(3, i, 2, ds_orig2d);
       var title_string = '<h4> Article: <a id="article" href="' + urls[i_to_orig[i]] + '"target="_blank">' + first_1000_ys[i] + '</h4></a>';
       $('#col-title-2d').html(title_string);
       var html_string = '<h5> Closest articles in 2D: </h5>';
       html_string += '<ul>';
       for (var i = 0; i < knn.length; i++) {
-        console.log("closest:");
-        console.log(knn[i]);
         html_string += '<li><a id="article" href="' + urls[i_to_orig[knn[i]]] + '"target="_blank">' + first_1000_ys[knn[i]] + '</a></li>'; 
       }
       html_string += '</ul>';
@@ -491,7 +483,6 @@ var BasicVis = new function() {
       better_string += '<h5> Closest articles in 300D: </h5>';
       better_string += '<ul>';
       for (var r = 0; r < orig_closest.length; r++) {
-        console.log(orig_closest[r]);
         better_string += '<li><a id="article" href="' + urls[orig_closest[r]] + '"target="_blank">' + all_articles[orig_closest[r]] + '</a></li>'; 
       }
       better_string += '</ul>';

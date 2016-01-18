@@ -90,7 +90,6 @@ self.onmessage = function(e) {
       N = data.N;
 
       xs = data.xs;
-      console.log(xs);
       D = data.D;
       ds_orig2d = new Float32Array(N*N);
       calc_ds(ds_orig2d);
