@@ -478,7 +478,7 @@ var BasicVis = new function() {
       knn = knn_points(3, i, 2, ds_orig2d);
       var title_string = '<h4> Article: <a id="article" href="' + urls[i_to_orig[i]] + '"target="_blank">' + first_1000_ys[i] + '</h4></a>';
       $('#col-title-2d').html(title_string);
-      var html_string = '<h5> After reducing to 2 dimensions, the closest articles are: </h5>';
+      var html_string = '<h5> Closest articles in 2D: </h5>';
       html_string += '<ul>';
       for (var i = 0; i < knn.length; i++) {
         console.log("closest:");
@@ -488,7 +488,7 @@ var BasicVis = new function() {
       html_string += '</ul>';
 
       var better_string = '';
-      better_string += '<h5> From the original 300 dimension vectors, the closest articles are: </h5>';
+      better_string += '<h5> Closest articles in 300D: </h5>';
       better_string += '<ul>';
       for (var r = 0; r < orig_closest.length; r++) {
         console.log(orig_closest[r]);
