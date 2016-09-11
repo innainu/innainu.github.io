@@ -7,7 +7,7 @@ var BasicVis = new function() {
   // do this, to make finding bugs easier and to
   // comply with the style guide.
 
-  'use strict';
+  "use strict";
 
   // In non-quirk browser modes, d3.selection.style("attr", int_val)
   // doesn't work! This is because it should be int_val+"px"
@@ -470,25 +470,25 @@ var BasicVis = new function() {
       var orig_closest = idx_top3[i]
       var knn = [];
       knn = knn_points(3, i, 2, ds_orig2d);
-      var title_string = '<h4> Article: <a id="article" href="' + urls[i_to_orig[i]] + '"target="_blank">' + first_1000_ys[i] + '</h4></a>';
-      $('#col-title-2d').html(title_string);
-      var html_string = '<h5> Closest articles in 2D: </h5>';
-      html_string += '<ul>';
+      var title_string = "<h4> Article: <a id=\"article\" href=\"" + urls[i_to_orig[i]] + "\"target=\"_blank\">" + first_1000_ys[i] + "</h4></a>";
+      $("#col-title-2d").html(title_string);
+      var html_string = "<h5> Closest articles in 2D: </h5>";
+      html_string += "<ul>";
       for (var i = 0; i < knn.length; i++) {
-        html_string += '<li><a id="article" href="' + urls[i_to_orig[knn[i]]] + '"target="_blank">' + first_1000_ys[knn[i]] + '</a></li>'; 
+        html_string += "<li><a id=\"article\" href=\"" + urls[i_to_orig[knn[i]]] + "\"target=\"_blank\">" + first_1000_ys[knn[i]] + "</a></li>"; 
       }
-      html_string += '</ul>';
+      html_string += "</ul>";
 
-      var better_string = '';
-      better_string += '<h5> Closest articles in 300D: </h5>';
-      better_string += '<ul>';
+      var better_string = "";
+      better_string += "<h5> Closest articles in 3D: </h5>";
+      better_string += "<ul>";
       for (var r = 0; r < orig_closest.length; r++) {
-        better_string += '<li><a id="article" href="' + urls[orig_closest[r]] + '"target="_blank">' + all_articles[orig_closest[r]] + '</a></li>'; 
+        better_string += "<li><a id=\"article\" href=\"" + urls[orig_closest[r]] + "\"target=\"_blank\">" + all_articles[orig_closest[r]] + "</a></li>";
       }
-      better_string += '</ul>';
-      $('#2d-display').html(html_string);
+      better_string += "</ul>";
+      $("#2d-display").html(html_string);
 
-      $('#2d-doc2vec-display').html(better_string);
+      $("#2d-doc2vec-display").html(better_string);
 
     };
     s.on("mouseover", show);
