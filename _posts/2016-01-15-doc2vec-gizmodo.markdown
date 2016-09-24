@@ -33,7 +33,7 @@ Doc2vec, an extension of word2vec, is an unsupervised learning method that attem
 
 <figure>
     <a href = "/assets/images/doc2vec_paper.png"><img src="/assets/images/doc2vec_paper.png" alt="image"></a>
-    <!-- <figcaption><a title="Histogram of Cosine Similarities">Histogram of Cosine Similarities</a>.</figcaption> -->
+    <figcaption><a title="from Mikolov et. al: https://arxiv.org/pdf/1405.4053v2.pdf"></a>.</figcaption>
 </figure>
 
 Just like word2vec, this method will learn the semantics of the text instead of just clustering documents that have the same words. I used gensim's implementation, whose documentation can be seen [here](https://radimrehurek.com/gensim/models/doc2vec.html). I used each Gizmodo articles' text as a document, and trained the doc2vec model on 8,000 documents. 
