@@ -2,12 +2,10 @@
 title: "Obaachan no Makura"
 layout: post
 date: 2017-11-14 23:44
-image: /assets/images/markdown.jpg
 headerImage: false
 tag:
 - crafts
 blog: true
-star: true
 author: innashteinbuk
 description: *My grandmother's pillows*
 ---
