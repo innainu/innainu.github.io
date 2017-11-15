@@ -7,7 +7,6 @@ headerImage: false
 tag:
 - thoughts
 blog: true
-star: true
 author: innashteinbuk
 description: 
 ---
