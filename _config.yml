@@ -3,7 +3,7 @@ name: Inna Shteinbuk
 bio: 
 
 # twitter summary info
-description: A blog about technology and stuff related
+description: blogging
 
 # if it's an external image, update below for true
 # better with square images
@@ -95,7 +95,7 @@ sass:
     sass_dir: _sass
     style: :compressed
 
-gems:
+plugins:
   - jemoji
   - jekyll-mentions
   - jekyll-seo-tag
