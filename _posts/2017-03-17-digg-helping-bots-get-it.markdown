@@ -11,4 +11,4 @@ author: innashteinbuk
 description: 
 ---
 
-As part of my work at betaworks/Digg this Summer and Fall, I developed a classification pipeline to tag chat messages that are chatted with [Digg's chatbot](m.me/digg). You can read about it on Digg's medium page [here](https://medium.com/digg-data/helping-bots-get-it-25b163d67a67#.jzul2poxl)! 
+As part of my work at betaworks/Digg this Summer and Fall, I developed a classification pipeline to tag chat messages that are chatted with [Digg's chatbot](https://m.me/digg). You can read about it on Digg's medium page [here](https://medium.com/digg-data/helping-bots-get-it-25b163d67a67#.jzul2poxl)! 
