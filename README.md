@@ -1,1 +1,1 @@
-Jekyll template forked from [here](https://github.com/sergiokopplin/)
+Jekyll template forked from [here](https://github.com/sergiokopplin/indigo)

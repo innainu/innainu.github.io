@@ -10,6 +10,7 @@ blog: true
 author: innashteinbuk
 description: 
 ---
+[Machine Learning Handbook:](https://github.com/innainu/ML-and-DS-Handbook)
 
 Lately I've been reviewing some machine learning and data science concepts, and needed a place to keep them all. In the past, whenever I would study something new, I wrote my notes in different places and would forget where I put them. So, I decided to start to writing down my notes in a [Colaboratory Notebook](https://colab.research.google.com/notebooks/welcome.ipynb#recent=true) and open source them.
 
