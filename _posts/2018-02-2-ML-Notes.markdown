@@ -12,7 +12,7 @@ description:
 ---
 [Machine Learning Notes:](https://github.com/innainu/ML-and-DS-Handbook)
 
-Lately I've been reviewing some machine learning and data science concepts, and needed a place to keep them all. I collaborated on a [Colaboratory Notebook](https://colab.research.google.com/notebooks/welcome.ipynb#recent=true).adsasd
+Lately I've been reviewing some machine learning and data science concepts, and needed a place to keep them all. I collaborated on a [Colaboratory Notebook](https://colab.research.google.com/notebooks/welcome.ipynb#recent=true).
 
 Hope someone finds it to be useful! [Repo here.](https://github.com/innainu/ML-and-DS-Handbook)
 
